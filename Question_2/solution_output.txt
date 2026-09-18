@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "c:\Users\ub02-glab-028\Desktop\data_mining_lab1\data_2\data_2\solution.py", line 6, in <module>
+    import matplotlib.pyplot as plt
+  File "C:\Users\ub02-glab-028\AppData\Local\Programs\Python\Python314\Lib\site-packages\matplotlib\__init__.py", line 1289, in <module>
+    rcParams['backend'] = os.environ.get('MPLBACKEND')
+    ~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ub02-glab-028\AppData\Local\Programs\Python\Python314\Lib\site-packages\matplotlib\__init__.py", line 781, in __setitem__
+    raise ValueError(f"Key {key}: {ve}") from None
+ValueError: Key backend: 'Agg ' is not a valid value for backend; supported values are ['gtk3agg', 'gtk3cairo', 'gtk4agg', 'gtk4cairo', 'macosx', 'nbagg', 'notebook', 'qtagg', 'qtcairo', 'qt5agg', 'qt5cairo', 'tkagg', 'tkcairo', 'webagg', 'wx', 'wxagg', 'wxcairo', 'agg', 'cairo', 'pdf', 'pgf', 'ps', 'svg', 'template']
